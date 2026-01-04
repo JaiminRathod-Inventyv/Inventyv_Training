@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>login | registration</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <!-- leftside -->
+      <div class="left-side">
+        <div class="logo">
+          <img
+            class="logo-img"
+            src="https://freedesignfile.com/upload/2015/02/Colored-company-logos-creative-design-04.jpg"
+            alt="logo"
+          />
+        </div>
+        <h2>lorum ipsum</h2>
+        <p class="description">Welcome to Our Platform!.</p>
+      </div>
+      <!-- rightside -->
+      <div class="right-side">
+        <input type="checkbox" id="flip" />
+
+        <div class="card-container">
+          <!-- front loginform -->
+          <div class="card-face card-front">
+            <h2>Login</h2>
+            <form action="#" onsubmit="return false;">
+              <input type="text" placeholder="Username" required />
+              <input type="password" placeholder="Password" required />
+              <a href="#" class="forgot-link">Forgot Password?</a>
+              <button type="submit">Login</button>
+            </form>
+            <p class="toggle-text">
+              New here? <label for="flip">Register here</label>
+            </p>
+          </div>
+
+          <!-- back registration form -->
+          <div class="card-face card-back">
+            <h2>Register</h2>
+            <form action="#">
+              <input type="text" placeholder="Username" required />
+              <input type="email" placeholder="Email" required />
+              <input type="password" placeholder="Password" required />
+              <button type="submit">Register</button>
+            </form>
+            <p class="toggle-text">
+              Already have an account?
+              <label for="flip">Login here</label>
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
