@@ -1,13 +1,13 @@
 # Inventyv_Training
 
-This repository contains assignment folders covering different aspects of software development: Logic Building, (HTML/CSS) Page , Database Management Systems (DBMS) ,  
+This repository contains assignment folders covering different aspects of software development: Logic Building, (HTML/CSS) Page , Database Management Systems (DBMS) ,
 
 ---
 
 ## 📁 Repository Structure
 
 ```text
-inventyv_training/
+Inventyv_Training/
 │
 ├── 01_LOGIC_BUILDING/
 │   └── README.md
@@ -15,16 +15,18 @@ inventyv_training/
 ├── 02_HTML_CSS_LOGINPAGE/
 │   ├── index.html
 │   ├── style.css
-│   └── logo.png
+|   ├── README.md
 │
 ├── 03_DBMS/
-│   ├── movies_db_queries.sql
-│   ├── sql_queries.md
-│   └── Questions.txt
-│
+│   ├── mysql_movies.sql
+│   ├── mysql_movies_db.md
+│   ├── Questions.
+│   ├── README.md
+|
 ├── LICENSE
 └── README.md
 ```
+
 ---
 
 ## 📁 Repository Overview
@@ -47,22 +49,7 @@ inventyv_training/
 
 - `index.html` - The main HTML structure for the login/registration page
 - `style.css` - Stylesheet containing all the styling and responsive design rules
-
-**Features:**
-
-- **Dual Functionality:** Toggle between Login/Registration forms
-- **Modern UI Design:**
-  - Split-screen layout (70% left side with branding, 30% right side with form)
-  - Card-based form design
-  - Professional color scheme with blue accent colors
-- **Responsive Design:** Mobile-friendly layout that adapts to different screen sizes
-- **Form Elements:**
-  - Login form: Username and Password fields with "Forgot Password?" link
-  - Registration form: Username, Email, and Password fields
-- **Visual Elements:**
-  - Company logo display
-  - Welcome message and description
-  - Clean, modern interface
+- `README.md` - Contains high-level overview of Web-page.
 
 ---
 
@@ -75,24 +62,7 @@ inventyv_training/
 - `mysql_movies.sql` - SQL script containing all 50 queries
 - `mysql_movies_db.md` - Detailed documentation with all queries, solutions, and outputs
 - `Questions.txt` - List of all 50 questions organized by category
-
-**Query Categories:**
-
-1. **Basic Queries (1-10):**
-
-   - Simple SELECT statements
-   - WHERE clauses
-   - UNION operations
-
-2. **Sub-Queries (11-26):**
-
-   - Nested queries
-   - IN, EXISTS operators
-
-3. **Joins (27-50):**
-   - JOIN
-   - Aggregate functions (COUNT, AVG, MAX, MIN)
-   - GROUP BY and HAVING clauses
+- `README.md` - Contians High-level overview of which type of queries implemented.
 
 ---
 
