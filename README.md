@@ -1,6 +1,6 @@
 # Inventyv_Training
 
-This repository contains assignment folders covering different aspects of software development: Logic Building, (HTML/CSS) Page , Database Management Systems (DBMS) ,
+This repository contains assignment folders covering different aspects of software development: Logic Building, (HTML/CSS) Page , Database Management Systems (DBMS) , Javascript Assignments , 
 
 ---
 
@@ -20,9 +20,14 @@ Inventyv_Training/
 ├── 03_DBMS/
 │   ├── mysql_movies.sql
 │   ├── mysql_movies_db.md
-│   ├── Questions.
+│   ├── Questions.txt
 │   ├── README.md
-|
+│
+├── 04_JAVASCRIPT_TASKS/
+│   ├── task1_promise.js
+│   ├── task3_promise_symbol.js
+│   ├── README.md
+│
 ├── LICENSE
 └── README.md
 ```
@@ -49,7 +54,7 @@ Inventyv_Training/
 
 - `index.html` - The main HTML structure for the login/registration page
 - `style.css` - Stylesheet containing all the styling and responsive design rules
-- `README.md` - Contains high-level overview of Web-page.
+- `README.md` - Contains detailed overview of the login/registration page implementation
 
 ---
 
@@ -66,12 +71,25 @@ Inventyv_Training/
 
 ---
 
+### 04_JAVASCRIPT_TASKS
+
+**Description:** This folder contains Assignments related to javascript.
+
+**Contents:**
+
+- `task1_promise.js` - Promise implementation with array manipulation and conditional resolution
+- `task3_promise_symbol.js` - Promise task using Symbol data types
+- `README.md` - Contains detailed overview of JavaScript tasks covered
+
+---
+
 ## 🎯 Learning Objectives
 
 This assignment repository covers:
 
 1. **Logic Building** - Algorithmic thinking and problem-solving
-2. **Frontend Development** - HTML/CSS implementation and responsive design
+2. **HTML/CSS** - HTML/CSS implementation and responsive design
 3. **Database Management** - SQL query writing and database operations
+4. **JavaScript Programming** - Promises , advanced data types (Symbols)
 
 ---
