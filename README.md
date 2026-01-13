@@ -27,7 +27,9 @@ Inventyv_Training/
 │   ├── task1_promise.js
 │   ├── task3_promise_symbol.js
 │   ├── README.md
-│
+├── 05_Exercism_javascript/
+|   ├── solutions of javascript learn mode of exercism 
+|   ├── README.md
 ├── LICENSE
 └── README.md
 ```
@@ -83,6 +85,12 @@ Inventyv_Training/
 
 ---
 
+### 05_Exercism_javascript
+
+**Description:** This folder contains solutions of javascript(Learn mode) of exercism.org website.
+
+---
+
 ## 🎯 Learning Objectives
 
 This assignment repository covers:
@@ -91,5 +99,5 @@ This assignment repository covers:
 2. **HTML/CSS** - HTML/CSS implementation and responsive design
 3. **Database Management** - SQL query writing and database operations
 4. **JavaScript Programming** - Promises , advanced data types (Symbols)
-
+5. **Exercism javascript** - solution of javascript(Learn mode) of exercism.org
 ---
