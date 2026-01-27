@@ -1,6 +1,6 @@
 # Inventyv_Training
 
-This repository contains assignment folders covering different aspects of software development: Logic Building, (HTML/CSS) Page , Database Management Systems (DBMS) , Javascript Assignments , 
+This repository contains assignment folders covering different aspects of software development: Logic Building, (HTML/CSS) Page , Database Management Systems (DBMS) , Javascript Assignments , Exercism problems (Learn mode) Javascript , Rust Programming Language,
 
 ---
 
@@ -27,9 +27,17 @@ Inventyv_Training/
 │   ├── task1_promise.js
 │   ├── task3_promise_symbol.js
 │   ├── README.md
+|
 ├── 05_Exercism_javascript/
-|   ├── solutions of javascript learn mode of exercism 
+|   ├── solutions of javascript learn mode of exercism
 |   ├── README.md
+|
+├── 06_RUST/
+|   ├── _01_Loops
+|   ├── _02_structs_and_methods
+|   ├── _03_serde
+|   ├── README.md
+|
 ├── LICENSE
 └── README.md
 ```
@@ -91,6 +99,19 @@ Inventyv_Training/
 
 ---
 
+### 06_RUST
+
+**Description:** This folder contains Rust programs covering fundamental Rust concepts.
+
+**Contents:**
+
+- `_01_loops` - Demonstrates different looping constructs in Rust (for, while, loop, labeled loops)
+- `_02_structs_and_methods` - Covers structs, nested structs, getters, setters, and associated methods
+- `_03_serde` - Demonstrates serialization and deserialization using serde and serde_json
+- `README.md` - Overview of Rust concepts implemented in this folder
+
+---
+
 ## 🎯 Learning Objectives
 
 This assignment repository covers:
@@ -100,4 +121,5 @@ This assignment repository covers:
 3. **Database Management** - SQL query writing and database operations
 4. **JavaScript Programming** - Promises , advanced data types (Symbols)
 5. **Exercism javascript** - solution of javascript(Learn mode) of exercism.org
+6. **Rust Programming** – Core Rust concepts including loops, structs, methods, and Serde crate
 ---

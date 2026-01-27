@@ -1,5 +1,3 @@
-
-
 fn main() {
     println!("level 2: loops of the river ");
     // for loop
@@ -55,6 +53,21 @@ fn main() {
         "clean", "polluted", "clean", "danger", "clean", "dam", "clean",
     ];
 
+    println!("---iterating using for:");
+    for zone in river_zones {
+        if zone == "dam" {
+            println!("reached a dam, stopping the river exploration.");
+            break;
+        }
+
+        if zone != "clean" {
+            println!("skipping water zone: {}", zone);
+            continue;
+        }
+
+        println!("water is  :{}", zone);
+    }
+
     println!("---iterating using loop:");
     let mut i = 0;
     loop {
@@ -83,21 +96,6 @@ fn main() {
         let zone = river_zones[j];
         j += 1;
 
-        if zone == "dam" {
-            println!("reached a dam, stopping the river exploration.");
-            break;
-        }
-
-        if zone != "clean" {
-            println!("skipping water zone: {}", zone);
-            continue;
-        }
-
-        println!("water is  :{}", zone);
-    }
-
-    println!("---iterating using for:");
-    for zone in river_zones {
         if zone == "dam" {
             println!("reached a dam, stopping the river exploration.");
             break;
