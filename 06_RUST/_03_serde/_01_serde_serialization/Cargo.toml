@@ -1,5 +1,5 @@
 [package]
-name = "_03_serde"
+name = "_01_serde_serialization"
 version = "0.1.0"
 edition = "2024"
 

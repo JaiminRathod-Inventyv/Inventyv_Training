@@ -3,7 +3,7 @@
 version = 4
 
 [[package]]
-name = "_03_serde"
+name = "_02_serde_deserialization"
 version = "0.1.0"
 dependencies = [
  "serde",

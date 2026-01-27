@@ -202,9 +202,6 @@ fn main() {
             age: 21,
         },
     };
-    // serialize car to JSON string
-    let car_json = serde_json::to_string(&car).unwrap();
-    println!("Serialized Car to JSON string: {}", car_json);
 
     let car_json_raw_string = r#"
     {
@@ -217,12 +214,14 @@ fn main() {
     }
     "#;
     // deserialize JSON to car
-    let deserialized_car: Car = serde_json::from_str(&car_json).unwrap();
-    println!("Deserialized Car from JSON: {:?}", deserialized_car);
-
     let deserialized_car_from_raw: Car = serde_json::from_str(car_json_raw_string).unwrap();
     println!(
         "Deserialized Car from raw JSON string: {:?}",
         deserialized_car_from_raw
     );
+
+    let car_json_string = serde_json::to_string(&car).unwrap();
+    // deserialize JSON to car
+    let deserialized_car: Car = serde_json::from_str(&car_json_string).unwrap();
+    println!("Deserialized Car: {:?}", deserialized_car);
 }

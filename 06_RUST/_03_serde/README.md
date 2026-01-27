@@ -1,46 +1,51 @@
-# Rust Serde JSON Example – Car Struct
+# Rust Serde JSON Examples – Serialization & Deserialization
 
-This project demonstrates how to use the `serde` crate with the `serde_json` crate in Rust to serialize and deserialize a **nested struct (`Car`)** to and from JSON format.
+This repository demonstrates how to use the **`serde`** and **`serde_json`** crates in Rust to **serialize and deserialize nested structs** to and from JSON format.
 
-## Overview
-
-The application defines nested data structures (`Car`, `Engine`, and `Owner`) and performs the following operations:
-
-1. **Serialization**: Converts a Rust `Car` instance into a JSON string.
-2. **Deserialization**: Parses a JSON string back into a `Car` struct.
-3. **Raw String Handling**: Demonstrates parsing a raw JSON string literal directly into a `Car` struct.
+It contains two focused examples using a common `Car` data model with nested structures like `Engine` and `Owner`.
 
 ---
 
-## Dependencies
-
-The project uses the following dependencies in `Cargo.toml`:
-
-```toml
-[dependencies]
-serde = { version = "1.0", features = ["derive"] }
-serde_json = "1.0"
-```
-
-## Usage
-
-To run the project, ensure you have Rust installed and run:
-
-```bash
-cargo run
-```
-
-## Expected Output
-
-The program will output:
-1.  The serialized JSON string derived from a struct.
-2.  The deserialized struct printed using the `Debug` formatter (`{:?}`).
-3.  Another deserialized struct derived from a raw JSON string literal.
+## 📁 Project Structure
 
 ```text
-Serialized Car to JSON string: {"brand":"BMW","model":"M3","year":2023,"color":"Black","engine":{"fuel_type":"Diesel","mileage":1500},"owner":{"name":"Jaimin","age":21}}
-
-Deserialized Car from JSON: Car { brand: "BMW", model: "M3", year: 2023, color: "Black", engine: Engine { fuel_type: "Diesel", mileage: 1500 }, owner: Owner { name: "Jaimin", age: 21 } }
-
-Deserialized Car from raw JSON string: Car { brand: "BMW", model: "M3", year: 2023, color: "Black", engine: Engine { fuel_type: "Diesel", mileage: 1500 }, owner: Owner { name: "Jaimin", age: 21 } }
+_03_serde/
+├── 01_serde_serialization/
+│   ├── src/
+│   │   └── main.rs
+│   └── README.md
+│
+└── 02_serde_deserialization/
+    ├── src/
+    │   └── main.rs
+    └── README.md
 ```
+
+## Data Model Overview
+
+Both examples use the same nested Rust structs:
+
+- `Car`
+  - `Engine`
+  - `Owner`
+
+This setup helps demonstrate how **nested Rust structures** are handled during JSON serialization and deserialization.
+
+---
+## `01_serde_serialization/`
+
+### Features
+- Converts a Rust Car struct into a JSON string
+- Uses #[derive(Serialize)]
+- Serializes nested structs with serde_json
+
+---
+## `02_serde_deserialization/`
+
+### Features
+ - Parses a raw JSON string literal
+ - Deserializes JSON back into a Rust struct
+ - Uses #[derive(Deserialize)]
+ - Handles nested JSON objects
+
+---
