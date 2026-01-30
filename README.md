@@ -25,6 +25,7 @@ Inventyv_Training/
 │
 ├── 04_JAVASCRIPT_TASKS/
 │   ├── task1_promise.js
+|   ├── task2_pattern.js
 │   ├── task3_promise_symbol.js
 │   ├── README.md
 |
@@ -88,6 +89,7 @@ Inventyv_Training/
 **Contents:**
 
 - `task1_promise.js` - Promise implementation with array manipulation and conditional resolution
+- `task2_pattern.js` - Pattern printing problem
 - `task3_promise_symbol.js` - Promise task using Symbol data types
 - `README.md` - Contains detailed overview of JavaScript tasks covered
 
@@ -108,6 +110,7 @@ Inventyv_Training/
 - `_01_loops` - Demonstrates different looping constructs in Rust (for, while, loop, labeled loops)
 - `_02_structs_and_methods` - Covers structs, nested structs, getters, setters, and associated methods
 - `_03_serde` - Demonstrates serialization and deserialization using serde and serde_json
+- `_05_request_tracker_assignment` - Covers Mutex and RwLock for safely manage shared state
 - `README.md` - Overview of Rust concepts implemented in this folder
 
 ---
@@ -121,5 +124,5 @@ This assignment repository covers:
 3. **Database Management** - SQL query writing and database operations
 4. **JavaScript Programming** - Promises , advanced data types (Symbols)
 5. **Exercism javascript** - solution of javascript(Learn mode) of exercism.org
-6. **Rust Programming** – Core Rust concepts including loops, structs, methods, and Serde crate
+6. **Rust Programming** – Core Rust concepts including loops, structs, methods, Serde crate, Mutex and RwLock
 ---

@@ -219,8 +219,6 @@ fn main() {
     println!("{}", car.get_car_info());
     println!(
         "{}",
-        Car::get_car_info_with_args(
-            "Ford", "Mustang", 2022, "Blue", 5000, "Petrol", "Charlie", 28
-        )
+        Car::get_car_info_with_args("Ford", "Mustang", 2022, "Blue", 5000, "Petrol", "Charlie", 28)
     );
 }

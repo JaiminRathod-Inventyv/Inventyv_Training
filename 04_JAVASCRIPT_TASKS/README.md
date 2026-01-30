@@ -29,6 +29,22 @@ This folder contains JavaScript assignments focused on Promises,Pattern and the 
 
 ---
 
+## Task 2: Pattern Printing
+
+**File:** `task2_pattern.js`
+
+**Problem Statement:**
+pattern for n=5 :
+```text
+11111
+12221
+12321
+12221
+11111
+```
+
+---
+
 ## Task 3: Promise with Symbol Data Type
 
 **File:** `task3_promise_symbol.js`
