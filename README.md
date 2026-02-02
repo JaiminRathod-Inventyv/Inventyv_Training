@@ -37,6 +37,8 @@ Inventyv_Training/
 |   ├── _01_Loops
 |   ├── _02_structs_and_methods
 |   ├── _03_serde
+|   ├── _05_request_tracker_assignment
+|   ├── _06_modules
 |   ├── README.md
 |
 ├── LICENSE
@@ -111,6 +113,7 @@ Inventyv_Training/
 - `_02_structs_and_methods` - Covers structs, nested structs, getters, setters, and associated methods
 - `_03_serde` - Demonstrates serialization and deserialization using serde and serde_json
 - `_05_request_tracker_assignment` - Covers Mutex and RwLock for safely manage shared state
+- `_06_modules` - Demonstrates how to organize different modules and use it with use and mod keywords in rust
 - `README.md` - Overview of Rust concepts implemented in this folder
 
 ---
@@ -124,5 +127,5 @@ This assignment repository covers:
 3. **Database Management** - SQL query writing and database operations
 4. **JavaScript Programming** - Promises , advanced data types (Symbols)
 5. **Exercism javascript** - solution of javascript(Learn mode) of exercism.org
-6. **Rust Programming** – Core Rust concepts including loops, structs, methods, Serde crate, Mutex and RwLock
+6. **Rust Programming** – Core Rust concepts including loops, structs, methods, Serde crate, Mutex and RwLock, modules
 ---
