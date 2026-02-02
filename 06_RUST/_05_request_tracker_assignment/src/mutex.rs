@@ -31,7 +31,6 @@ pub fn process_requests() {
     ];
     for req in requests {
         let response = handle_request(&req);
-        println!("{}", response);
     }
 
     let total_count = TOTAL_COUNT.lock().unwrap();
