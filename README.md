@@ -37,8 +37,10 @@ Inventyv_Training/
 |   ├── _01_Loops
 |   ├── _02_structs_and_methods
 |   ├── _03_serde
+|   ├── _04_ownership_and_borrowing
 |   ├── _05_request_tracker_assignment
 |   ├── _06_modules
+|   ├── _07_hashmap_hashset
 |   ├── README.md
 |
 ├── LICENSE
@@ -112,8 +114,10 @@ Inventyv_Training/
 - `_01_loops` - Demonstrates different looping constructs in Rust (for, while, loop, labeled loops)
 - `_02_structs_and_methods` - Covers structs, nested structs, getters, setters, and associated methods
 - `_03_serde` - Demonstrates serialization and deserialization using serde and serde_json
+- `_04_ownership_and_borrowing` - Explore Rust's unique memory management. mutable and immutable references
 - `_05_request_tracker_assignment` - Covers Mutex and RwLock for safely manage shared state
 - `_06_modules` - Demonstrates how to organize different modules and use it with use and mod keywords in rust
+- `_07_hashmap_hashset` - Covers common methods related to hashmap and hashset collections in rust
 - `README.md` - Overview of Rust concepts implemented in this folder
 
 ---
@@ -127,5 +131,5 @@ This assignment repository covers:
 3. **Database Management** - SQL query writing and database operations
 4. **JavaScript Programming** - Promises , advanced data types (Symbols)
 5. **Exercism javascript** - solution of javascript(Learn mode) of exercism.org
-6. **Rust Programming** – Core Rust concepts including loops, structs, methods, Serde crate, Mutex and RwLock, modules
+6. **Rust Programming** – Core Rust concepts including loops, structs, methods, Serde crate, Mutex and RwLock, modules, collections 
 ---
