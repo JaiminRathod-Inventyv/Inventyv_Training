@@ -4,6 +4,8 @@ pub mod _02_structs_and_methods;
 // by making mod.rs in subfolder
 pub mod _03_serde;
 
+pub mod _04_ownership_and_borrowing;
+
 // by using nested modules without making mod.rs in subfolder
 pub mod _05_request_tracker_assignment{
     pub mod main;
