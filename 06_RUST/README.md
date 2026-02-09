@@ -69,14 +69,23 @@ Each subfolder is a **standalone Rust project** with its own `Cargo.toml`, sourc
 │   ├─ Cargo.toml
 │   └─ README.md
 │
-└── _07_hashmap_hashset/
-    ├── src/
-    │   ├── main.rs
-    │   ├── hashmap.rs
-    │   └── hashset.rs
-    │
-    ├── Cargo.toml
-    └── README.md
+├── _07_hashmap_hashset/
+├── src/
+│   ├── main.rs
+│   ├── hashmap.rs
+│   └── hashset.rs
+│
+├── Cargo.toml
+└── README.md
+│
+├── _08_inventory_management_assignment/
+├── src/
+│   ├── main.rs
+├── Cargo.toml
+└── README.md
+
+
+
 
 
 ```
@@ -125,5 +134,11 @@ Understand Rust's module system and how to organize code for clarity. how to spl
 
 This module demonstrates Rust's **HashMap** and **HashSet** collections.\
 how to insert, remove, clone, retain, reserve capacity, and extend collections using inbuilt methods of hashmap and hashset in rust.
+
+---
+
+### _08_inventory_management_assignment
+
+This module contains Rust's concept of trait system, generics, error handling, and HashMap collection to store inventory items.
 
 ---

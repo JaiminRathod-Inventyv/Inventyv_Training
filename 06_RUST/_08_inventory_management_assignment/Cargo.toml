@@ -1,0 +1,6 @@
+[package]
+name = "_08_inventory_management_assignment"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]

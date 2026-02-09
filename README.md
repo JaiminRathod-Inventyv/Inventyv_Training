@@ -41,6 +41,7 @@ Inventyv_Training/
 |   ├── _05_request_tracker_assignment
 |   ├── _06_modules
 |   ├── _07_hashmap_hashset
+|   ├── _08_inventory_management_assignment
 |   ├── README.md
 |
 ├── LICENSE
@@ -118,6 +119,7 @@ Inventyv_Training/
 - `_05_request_tracker_assignment` - Covers Mutex and RwLock for safely manage shared state
 - `_06_modules` - Demonstrates how to organize different modules and use it with use and mod keywords in rust
 - `_07_hashmap_hashset` - Covers common methods related to hashmap and hashset collections in rust
+- `_08_inventory_management_assignment` - Covers Rust's concept of trait, generics, error handling, and HashMap collection
 - `README.md` - Overview of Rust concepts implemented in this folder
 
 ---
