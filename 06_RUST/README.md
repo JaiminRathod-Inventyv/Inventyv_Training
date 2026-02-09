@@ -70,7 +70,7 @@ Each subfolder is a **standalone Rust project** with its own `Cargo.toml`, sourc
 │   └─ README.md
 │
 ├── _07_hashmap_hashset/
-├── src/
+│   ├─ src/
 │   ├── main.rs
 │   ├── hashmap.rs
 │   └── hashset.rs
@@ -79,11 +79,20 @@ Each subfolder is a **standalone Rust project** with its own `Cargo.toml`, sourc
 └── README.md
 │
 ├── _08_inventory_management_assignment/
-├── src/
-│   ├── main.rs
-├── Cargo.toml
+│   ├── src/
+│   │   └── main.rs
+│   │
+│   ├── Cargo.toml
+│   └── README.md
+│
+├── _09_inventory_assignment_lifetime_closure/
+│   ├── src/
+│   │   └── main.rs
+│   │
+│   ├── Cargo.toml
+│   └── README.md
+|
 └── README.md
-
 
 
 
@@ -140,5 +149,11 @@ how to insert, remove, clone, retain, reserve capacity, and extend collections u
 ### _08_inventory_management_assignment
 
 This module contains Rust's concept of trait system, generics, error handling, and HashMap collection to store inventory items.
+
+---
+
+### _09_inventory_assignment_lifetime_closure
+
+This module contains Rust's concept of trait system, generics, error handling, and HashMap collection to store inventory items with lifetime and closure.
 
 ---
