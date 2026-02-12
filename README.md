@@ -4,7 +4,7 @@ This repository contains assignment folders covering different aspects of softwa
 
 ---
 
-## 📁 Repository Structure
+## Repository Structure
 
 ```text
 Inventyv_Training/
@@ -43,6 +43,7 @@ Inventyv_Training/
 |   ├── _07_hashmap_hashset
 |   ├── _08_inventory_management_assignment
 |   ├── _09_inventory_assignment_lifetime_closure
+|   ├── _10_multithreading_assignment
 |   ├── README.md
 |
 ├── LICENSE
@@ -51,7 +52,7 @@ Inventyv_Training/
 
 ---
 
-## 📁 Repository Overview
+## Repository Overview
 
 ### 01_LOGIC_BUILDING
 
@@ -122,11 +123,12 @@ Inventyv_Training/
 - `_07_hashmap_hashset` - Covers common methods related to hashmap and hashset collections in rust
 - `_08_inventory_management_assignment` - Covers Rust's concept of trait, generics, error handling, and HashMap collection
 - `_09_inventory_assignment_lifetime_closure` - Covers Rust's concept of trait, generics, error handling, and HashMap collection with lifetime and closure
+- `_10_multithreading_assignment` - Demonstrates How to use multiple threads in rust
 - `README.md` - Overview of Rust concepts implemented in this folder
 
 ---
 
-## 🎯 Learning Objectives
+## Learning Objectives
 
 This assignment repository covers:
 
@@ -135,5 +137,5 @@ This assignment repository covers:
 3. **Database Management** - SQL query writing and database operations
 4. **JavaScript Programming** - Promises , advanced data types (Symbols)
 5. **Exercism javascript** - solution of javascript(Learn mode) of exercism.org
-6. **Rust Programming** – Core Rust concepts including loops, structs, methods, Serde crate, Mutex and RwLock, modules, collections, lifetimes , closures 
+6. **Rust Programming** – Core Rust concepts including loops, structs, methods, Serde crate, Mutex and RwLock, modules, collections, lifetimes , closures , multithreading ,
 ---

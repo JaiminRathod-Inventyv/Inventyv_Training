@@ -92,6 +92,13 @@ Each subfolder is a **standalone Rust project** with its own `Cargo.toml`, sourc
 │   ├── Cargo.toml
 │   └── README.md
 |
+├── _10_multithreading_assignment/
+│   ├── src/
+│   │   └── main.rs
+│   │
+│   ├── Cargo.toml
+│   └── README.md
+|
 └── README.md
 
 
@@ -155,5 +162,11 @@ This module contains Rust's concept of trait system, generics, error handling, a
 ### _09_inventory_assignment_lifetime_closure
 
 This module contains Rust's concept of trait system, generics, error handling, and HashMap collection to store inventory items with lifetime and closure.
+
+---
+
+### _10_multithreading_assignment
+
+This module contains Rust's concept of multithreading
 
 ---
