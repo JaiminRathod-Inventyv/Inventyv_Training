@@ -44,6 +44,7 @@ Inventyv_Training/
 |   ├── _08_inventory_management_assignment
 |   ├── _09_inventory_assignment_lifetime_closure
 |   ├── _10_multithreading_assignment
+|   ├── _11_http_server_assignment
 |   ├── README.md
 |
 ├── LICENSE
@@ -124,6 +125,7 @@ Inventyv_Training/
 - `_08_inventory_management_assignment` - Covers Rust's concept of trait, generics, error handling, and HashMap collection
 - `_09_inventory_assignment_lifetime_closure` - Covers Rust's concept of trait, generics, error handling, and HashMap collection with lifetime and closure
 - `_10_multithreading_assignment` - Demonstrates How to use multiple threads in rust
+- `_10_http_server_assignment` - Demonstrates CRUD application using axum
 - `README.md` - Overview of Rust concepts implemented in this folder
 
 ---
@@ -137,5 +139,5 @@ This assignment repository covers:
 3. **Database Management** - SQL query writing and database operations
 4. **JavaScript Programming** - Promises , advanced data types (Symbols)
 5. **Exercism javascript** - solution of javascript(Learn mode) of exercism.org
-6. **Rust Programming** – Core Rust concepts including loops, structs, methods, Serde crate, Mutex and RwLock, modules, collections, lifetimes , closures , multithreading ,
+6. **Rust Programming** – Core Rust concepts including loops, structs, methods, Serde crate, Mutex and RwLock, modules, collections, lifetimes , closures , multithreading , http server(axum)
 ---

@@ -1,0 +1,41 @@
+[
+  {
+    "id": "f011802b-29c5-4242-97d8-47f8666abe31",
+    "name": "Jaimin",
+    "email": "jaimin@example.com",
+    "cars": [
+      {
+        "id": "eb839d6b-7d0c-4447-9e66-7aab97dd8257",
+        "name": "BMW",
+        "model": "M5",
+        "year": 2021,
+        "registration_number": "XYZ123456789"
+      },
+      {
+        "id": "bc1314a7-c9c5-4b23-aad8-0a3bba9eb55d",
+        "name": "BMW",
+        "model": "M3",
+        "year": 2021,
+        "registration_number": "XYZ123456756"
+      }
+    ]
+  },
+  {
+    "id": "f36157e5-aa5d-43c6-9cab-c14da1bea7c2",
+    "name": "John",
+    "email": "john@example.com",
+    "cars": []
+  },
+  {
+    "id": "5ac214ef-8a07-45fd-9c0f-a6724f4b3c08",
+    "name": "John",
+    "email": "john@example.com",
+    "cars": []
+  },
+  {
+    "id": "aec53616-a0d6-4af3-b7a6-e78fc34d12ac",
+    "name": "John",
+    "email": "john@example.com",
+    "cars": []
+  }
+]

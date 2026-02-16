@@ -99,6 +99,16 @@ Each subfolder is a **standalone Rust project** with its own `Cargo.toml`, sourc
 │   ├── Cargo.toml
 │   └── README.md
 |
+├── _11_http_server_assignment/
+│   ├── src/
+│   ├── main.rs
+│   ├── api.rs
+│   ├── handler.rs
+│   ├── routes.rs
+│   ├── model.rs
+│   ├── Cargo.toml
+│   └── README.md
+|
 └── README.md
 
 
@@ -168,5 +178,11 @@ This module contains Rust's concept of trait system, generics, error handling, a
 ### _10_multithreading_assignment
 
 This module contains Rust's concept of multithreading
+
+---
+
+### _11_http_server_assignment
+
+This module contains a CRUD application using http server(axum) and asynchronous runtime using tokio crate.
 
 ---
