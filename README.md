@@ -125,7 +125,7 @@ Inventyv_Training/
 - `_08_inventory_management_assignment` - Covers Rust's concept of trait, generics, error handling, and HashMap collection
 - `_09_inventory_assignment_lifetime_closure` - Covers Rust's concept of trait, generics, error handling, and HashMap collection with lifetime and closure
 - `_10_multithreading_assignment` - Demonstrates How to use multiple threads in rust
-- `_10_http_server_assignment` - Demonstrates CRUD application using axum
+- `_11_http_server_assignment` - Demonstrates CRUD application using axum
 - `README.md` - Overview of Rust concepts implemented in this folder
 
 ---
